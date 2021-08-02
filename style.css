@@ -1,6 +1,19 @@
-tr,table,th,td{
-    border: 1px solid black;
+tr,
+table,
+th,
+td {
+  border: 1px solid black;
 }
-th{
-    background-color: pink;
+th {
+  background-color: pink;
+}
+
+.map-container,
+#gmap_canvas {
+  height: 350px;
+  width: 100%;
+}
+#gmap_canvas img {
+  max-width: none !important;
+  background: none !important;
 }
